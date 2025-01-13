@@ -14,12 +14,10 @@ The project demonstrates how to classify short text ("tasks") using minimal trai
 - **Comparative Analysis**: Benchmarks MIL against Aleph (traditional ILP) and Siamese Networks.
 
 ### Datasets
-Task Classification Dataset:
-
+- **Task Classification Dataset**:
 Custom dataset for family, work, and sport categories.
 Includes positive and negative examples for training and evaluation.
-News Category Dataset:
-
+- **News Category Dataset**:
 Publicly available dataset with diverse topics (sports, technology, environment, etc.).
 Used to validate the generalization capabilities of the MIL approach.
 
