@@ -13,6 +13,17 @@ The project demonstrates how to classify short text ("tasks") using minimal trai
 - **Commonsense Knowledge**: Uses ConceptNet to enrich background knowledge.
 - **Comparative Analysis**: Benchmarks MIL against Aleph (traditional ILP) and Siamese Networks.
 
+### Datasets
+Task Classification Dataset:
+
+Custom dataset for family, work, and sport categories.
+Includes positive and negative examples for training and evaluation.
+News Category Dataset:
+
+Publicly available dataset with diverse topics (sports, technology, environment, etc.).
+Used to validate the generalization capabilities of the MIL approach.
+
+
 ### Citation
 
 If you find this work useful in your research, please consider citing:
