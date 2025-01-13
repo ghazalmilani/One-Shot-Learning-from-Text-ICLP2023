@@ -15,11 +15,9 @@ The project demonstrates how to classify short text ("tasks") using minimal trai
 
 ### Datasets
 - **Task Classification Dataset**:
-Custom dataset for family, work, and sport categories.
-Includes positive and negative examples for training and evaluation.
+ Handcrafted examples for family, work, and sports categories.
 - **News Category Dataset**:
-Publicly available dataset with diverse topics (sports, technology, environment, etc.).
-Used to validate the generalization capabilities of the MIL approach.
+A publicly available dataset containing diverse news topics.
 
 
 ### Citation
