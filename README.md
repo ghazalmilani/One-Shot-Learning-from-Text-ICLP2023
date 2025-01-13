@@ -13,9 +13,10 @@ The project demonstrates how to classify short text ("tasks") using minimal trai
 - **Commonsense Knowledge**: Uses ConceptNet to enrich background knowledge.
 - **Comparative Analysis**: Benchmarks MIL against Aleph (traditional ILP) and Siamese Networks.
 
-  ## Citation
+### Citation
 
 If you find this work useful in your research, please consider citing:
+
 @article{afroozi2023towards,
   title={Towards One-Shot Learning for Text Classification using Inductive Logic Programming},
   author={Afroozi Milani, Ghazal and Cyrus, Daniel and Tamaddoni-Nezhad, Alireza},
