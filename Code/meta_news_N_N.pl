@@ -98,32 +98,3 @@ learn_hyp(Count,Npos,Nneg):-
 
 
     
-%    learn(Pos,Neg,Prog),
-%    pprint(Prog,Hyp),
-%    open('hypothesis.pl',write,OS),
-%   
-%    reverse(Hyp, Hyp1),
-%  
-%    saveTheory(Hyp1,OS),
-%   %write(OS,':-consult('bk.pl')'),
-%   %write(OS,':-consult('bk.pl').'),
-%writeln('----------Hypothesis--------'),
-%        printHyp(Hyp1),    
-%    consult(hypothesis).
-%%%%
-%:- dynamic get_s/2.
-%run_hyp([]).
-%run_hyp([S|T]):-
-%    once(e(S,B)),
-%    write(B),
-%    run_hyp(T).
-%get_s([],S) :-
-%    length(S, Int),
-%    Int>=1,
-%    run_hyp(S).
-%get_s([H|T],S) :-
-%    (contains(SS,H),
-%    not(member(SS,S)),
-%    append([SS], S, List),
-%    get_s(T,List));
-%    get_s(T,S).
